@@ -1,0 +1,19 @@
+Inteligencia: Relacionar; aprendizaje a cierto grado; comportamiento dirigido a ciertas metas
+Artificial: No presente en la naturaleza; creado por el hombre
+
+Categorias Radiales: Conceptos para los que no se puede dar una definición clara. La forma de definirlos es a través de ejemplos prototípicos.
+Se tiene que tomar en cuenta que los conceptos cambian dependiendo del idioma. Cambian de radialidad dependiendo la cultura.
+
+Hipótesis de I.A.:
+  Se puede reproducir el comportamiento inteligente (características de la inteligencia) artificialmente.
+  Se pueden estudiar los fenómenos relacionados con la inteligencia usando copmutadoras.
+    Meta-Razonamiento: Razonamiento acerca del razonamiento. Capacidad de saber lo que sabes y lo que no sabes.
+
+Historia de I.A.:
+  Comenzó en el Congreso de Dartmouth, New Hampshire, en 1956
+    Claude Shannon: Padre de Teoría de Información.
+    John McCarthy: Creador de LISP.
+    Marvin Minsky: Frames (antecedentes de clases en programación orientada a objetos).
+    Herbert Simon: Premio Nobel de Economía. Racionalidad limitada. (Padre fundador de I.A.)
+    Allen Newell: Trabajó con Simon. Premio anual de I.A.=Premio Newell.
+    Norbert Wiener: Padre de Teoría de Control.
