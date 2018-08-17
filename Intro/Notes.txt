@@ -17,3 +17,22 @@ Historia de I.A.:
     Herbert Simon: Premio Nobel de Economía. Racionalidad limitada. (Padre fundador de I.A.)
     Allen Newell: Trabajó con Simon. Premio anual de I.A.=Premio Newell.
     Norbert Wiener: Padre de Teoría de Control.
+
+Es un área de estudios multidisciplinaria ya que combina aspectos de:
+  Computación.
+  Sociología.
+  Matemáticas.
+  Electrónica (hardware).
+	Lingüística.
+  Neurología.
+  Biología.
+  Pedagogía.
+  Epistemología.
+  Ética (Leyes de la Robótica).
+  Filosofía.
+  
+Requiere conocimiento, aunque hay mucho, es difícil de caracterizar o interpretar, se necesita conocimiento para saber como interpretar al conocimiento.
+Se necesita que agrupe generalizaciones del conocimiento, puede ser entendido por personas que saben del tema, lo que se tiene en el sistema debe aplicarse a una mayor cantidad de áreas, tiene que ser fácilmente corregible.
+  
+Diferencias con otros enfoques:
+  
