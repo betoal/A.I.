@@ -1,0 +1,34 @@
+Inteligencia = Conocimientos + Búsqueda
+Se analiza cada problema nuevo y se trata de formalizar una descripción que identifique:
+  Variables con las que se puede describir el estado del problema.
+  Identificar el estado inicial (con que se empieza).
+  Estados finales/aceptables como solución.
+  Operadores/acciones/transformaciones básicos/primitivos que permiten cambuar de estado (y sus restricciones/condiciones de aplicabilidad).
+  
+  
+Problema de las jarras: Se tienen 2 jarras de 3 y 4 litros respectivamente
+  i) x := # litros utilizados en jarra de 4
+     y := # litros utilizados en jarra de 3
+  ii) x = 0; y = 0;
+  iii) x = 2; y = *(don´t care);
+  iv) a)Llenar la jarra de 4.
+      b)Llenar la jarra de 3.
+      c)Transferir todo de 3 a 4 o hasta que se llene la de 4.
+      d)Transferir todo de 4 a 3 o hasta que se llene la de 3.
+      e)Vaciar la de 4.
+      f)Vaciar la de 3.
+  
+  
+  Estado inicial    Acción    Estado final
+    x       y                   x                y
+   0<x<4  0<y1<3      a        x=4              y1   
+   0<x1<4 0<y<3       b        x1               y=3
+   0<x1<4 0<y1<3      c        min(4,x1+y1)     y=0; (y1-(4-x1))
+   0<x1<4 0<y1<3      d        x=0;(x1-(3-y1)   min(3,x1+y1)
+   0<x1<4 0<y1<3      e        x=0              y1
+   0<x1<4 0<y1<3      f        x1               y=0
+   
+Dominio de la función: Lo que se requiere hacer.        
+   Se puede hacer un diagrama de transiciones.
+   En la búsqueda se tiene que asegurar que no se repitan estados.
+    Se puede utilizar la búsqueda en profundidad. {DFS}
