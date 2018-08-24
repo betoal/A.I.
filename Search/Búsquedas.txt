@@ -32,3 +32,11 @@ Dominio de la función: Lo que se requiere hacer.
    Se puede hacer un diagrama de transiciones.
    En la búsqueda se tiene que asegurar que no se repitan estados.
     Se puede utilizar la búsqueda en profundidad. {DFS}
+    
+  Para cada nodo:
+    Empezar por el inicial.
+    Visitar el nodo (incluye detectar nodo final).
+    Agregar sus hijos a la cola.
+    
+Heurística: Regla específica del dominio de un sistema de I.A. diseñada explícitamente para hacer más eficiente la búsqueda.
+  Características, no necesariamente algo probado, comprobable).
