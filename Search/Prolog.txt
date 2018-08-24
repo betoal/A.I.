@@ -1,0 +1,11 @@
+Libro de Ivan Bratko: Swi-Prolog.
+se basa en la lógica de predicados.
+
+Constantes van siempre en minúsculas.
+Variables van en mayúsculas.
+"if" := conclusión :- condiciones .(punto al final es ;)
+
+Un programa en Prolog consiste de: {Base de conocimiento (i ^ ii)}
+  i) Hechos (x es x {constantes})
+  ii) Reglas (hechos genéricos más amplios)
+  iii) Consulta (qué conclusiones quiero tratar de demostrar)
