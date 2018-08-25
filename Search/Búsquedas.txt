@@ -4,6 +4,8 @@ Se analiza cada problema nuevo y se trata de formalizar una descripción que ide
   Identificar el estado inicial (con que se empieza).
   Estados finales/aceptables como solución.
   Operadores/acciones/transformaciones básicos/primitivos que permiten cambuar de estado (y sus restricciones/condiciones de aplicabilidad).
+
+  "Aridad" := Cantidad de argumentos que requiere un predicado.
   
   
 Problema de las jarras: Se tienen 2 jarras de 3 y 4 litros respectivamente
@@ -40,3 +42,42 @@ Dominio de la función: Lo que se requiere hacer.
     
 Heurística: Regla específica del dominio de un sistema de I.A. diseñada explícitamente para hacer más eficiente la búsqueda.
   Características, no necesariamente algo probado, comprobable).
+
+Para las consultas:
+  , -> concatenación.
+  . -> fin de consulta.
+  _ -> don´t care (variable anónima).
+  Variables empiezan con mayúscula.
+  Hechos empiezan en minúscula.
+  fail -> Iteración de todos los datos.
+  nl -> new line
+  write -> imprime variables o texto.
+  % -> comentario
+  /* */ -> comentario multilínea
+  :- -> if de reglas
+  Predicado no determinístico -> Almacenar un punto de retroceso durante una búsqueda.
+
+Aritmética:
+  =:= -> igual que
+  =\= -> diferente de (entre números).
+  \== -> diferente de (entre objetos).
+  =< -> menor o igual.
+  rem -> residuo de división de números enteros.
+  // -> cociente de división de números enteros
+  ** -> exponenciación.
+  is -> asignación de valor a variables.
+
+Corte ("cut") ! Su valor lógico siempre es cierto. Elimina el más reciente punto de retroceso.
+Fallo fail Su valor lógico siempre es falso. Se regresa al último punto de retroceso.
+
+Predicados:
+  De orden 0 -> Si los argumentos son todos constantes.
+  De orden 1 -> Si hay variables entre sus argumentos.
+  De orden 2 -> Si hay otros predicados entre sus argumentos.
+    Functor: Predicado que se usa como argumento de otro predicado.
+
+Lista: [1,2,3,4]; [['a','b'],['c]']
+  Cabeza (primer elemento) 1; ['a','b']
+  Cola (el resto de elementos) [2,3,4]; ['c']
+
+  Lista=[cabeza|cola]
