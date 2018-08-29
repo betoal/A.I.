@@ -81,3 +81,10 @@ Lista: [1,2,3,4]; [['a','b'],['c]']
   Cola (el resto de elementos) [2,3,4]; ['c']
 
   Lista=[cabeza|cola]
+
+Base de Conocimientos Dinámica: [:-dynamic NOMBRE]
+  La base de conocimientos puede variar durante el tiempo de ejecución => capacidad de aprendizaje.
+  Predicados predefinidos:
+    assert({hecho o regla}) := sirve para agregar un nuevo predicado o hecho.
+    retract({hecho o regla}) := borra un hecho o predicado.
+    retractall() := borra los predicados cuando están a la derecha.

@@ -1,0 +1,9 @@
+https://introcs.cs.princeton.edu/java/92symbolic/ <-- Explicación del código
+
+https://gist.github.com/derlin/40545e447fffe7599d26d0a435d9b113 <-- Código java
+
+http://www.allisons.org/ll/Logic/Prolog/Examples/Diff/
+
+http://www.maheshsubramaniya.com/article/symbolic-computation-differential-calculus-using-prolog-part-1.html
+
+https://programmingpraxis.com/2017/03/24/symbolic-differentiation/
