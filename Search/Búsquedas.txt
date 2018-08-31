@@ -39,9 +39,6 @@ Dominio de la función: Lo que se requiere hacer.
     Empezar por el inicial.
     Visitar el nodo (incluye detectar nodo final).
     Agregar sus hijos a la cola.
-    
-Heurística: Regla específica del dominio de un sistema de I.A. diseñada explícitamente para hacer más eficiente la búsqueda.
-  Características, no necesariamente algo probado, comprobable).
 
 Para las consultas:
   , -> concatenación.
@@ -88,3 +85,29 @@ Base de Conocimientos Dinámica: [:-dynamic NOMBRE]
     assert({hecho o regla}) := sirve para agregar un nuevo predicado o hecho.
     retract({hecho o regla}) := borra un hecho o predicado.
     retractall() := borra los predicados cuando están a la derecha.
+
+Heurística: Regla específica del dominio de un sistema de I.A. diseñada
+explícitamente para hacer más eficiente la búsqueda.   Características, no necesariamente algo probado, comprobable).
+Conocimiento específico del dominio de un sistema de la I.A. cuyo propósito es guiar/simplificar la búsqueda.
+	La hace más eficiente, pero no hay garantía de optimalidad ni en la calidad de la solución ni en el tiempo de resolución.
+
+Función Heurística / Objetivo / Utilidad / Aptitud / Evaluación:
+	Mide qué tan bueno es cada estado visitado durante la búsqueda.
+
+**Tipos de Búsquedas**
+
+Montañismo / Escalada / Alpinismo / (Hill Climbing):
+	Dado el estado actual, evaluar cada estado subsecuente, eligiendo el primero  que tenga un valor mejor que el estado actual. (Descarta los demás "poda").
+
+Escalada Maximizada (Steepest-Ascent) / Minimizada (Descent Hill-Climbing):
+	Dado el estado actual, evaluar todos los posibles estados subsecuentes y elegir el que tenga el mejor valor. (Gradient search).
+
+Búsqueda Optimizada (Best-First Search):
+	Combina aspectos de BFS y DFS.
+	Procede en profundidad pero mantiene abiertas otras ramas del árbol de búsqueda en caso de tener que explorarlas.
+
+Búsqueda con Viga (Beam Search):
+	Parecida a una búsqueda optimizada, pero limitando la cantidad de posibles estados "abiertos" en cada nivel del árbol de búsqueda (n = anchura de la viga).
+	A* (A-Estrella, A-Star):
+		Parecida a búsqueda optimizada, pero la función objetivo f(s) consiste de 2 partes: g(s) ^ h(s).
+		g(s) es una medida del costo incurrido para llegar al estado actual.
