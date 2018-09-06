@@ -49,6 +49,6 @@ differentiate([Coeff|B],[NewCoeff|D],Pow):-
 
 print([]).
 print([A|B]) :-
-	format(' Head = ~w\tTail = ~w~n',A),
+	format(' ~w^~w +~n',A),
 	print(B).
 
