@@ -48,7 +48,8 @@ differentiate([Coeff|B],[NewCoeff|D],Pow):-
     NewCoeff is Coeff*Pow.
 
 print([]).
-print([A|B]) :-
-	format(' ~w^~w +~n',A),
-	print(B).
+print([A|B],N) :-
+	format(' ~wx^N+~n',A),
+	N is N + 1,
+	print(B,N).
 
