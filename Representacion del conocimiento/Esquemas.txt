@@ -1,0 +1,13 @@
+Esquemas de Representación del conocimiento:
+
+Los marcos son "clases" en las funciones heurísticas. Pueden tener referencias a otros marcos donde se definen las características de los "objetos".
+
+Se usan cuando se quiere enseñar conceptos al sistema, descritos a travües de múltiples detalles sobre sus atributos.
+Conexiones en general con otros conceptos.
+
+Las jerarquías son un tipo de "herencia (jerarquía de clases)".
+	Las jerarquías se pueden visualizar como estucturas de datos de tipo árbol.
+	Hay distintos tipos: la semántica (significado) de la relación jerárquica es diferente.
+	En una taxonomía, hay distintas clasificaciones con un "o" implícito. (vehículos->coche o avion->pasajeros o camion->etc)
+
+Se usan cuando hay relaciones (entre conceptos) con la semántica sistemática.

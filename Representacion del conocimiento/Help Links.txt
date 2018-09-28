@@ -1,0 +1,16 @@
+https://stackoverflow.com/questions/13870983/how-to-solve-cryptarithmetic-puzzle-in-prolog <-- Solve simple cryptarithmetic puzzle
+
+https://stackoverflow.com/questions/10925285/faster-implementation-of-verbal-arithmetic-in-prolog/11011680#11011680 <-- General implementation with faster performance
+
+http://www.swi-prolog.org/man/clpfd.html <-- Library explained
+https://www.metalevel.at/prolog/clpfd
+
+https://www.metalevel.at/prolog <-- Tutorial Prolog
+
+https://www.metalevel.at/prolog/optimization#tree <-- Optimization in Prolog (Graphs)
+
+Integer arithmetic
+Pairs of terms
+Keysort
+
+->Termination
