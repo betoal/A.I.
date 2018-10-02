@@ -1,0 +1,5 @@
+mono(Coeff,Pow).
+poly(Monos).
+
+as_monomial(Expression,Monomial).
+
