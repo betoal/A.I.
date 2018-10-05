@@ -2,6 +2,8 @@ https://stackoverflow.com/questions/13870983/how-to-solve-cryptarithmetic-puzzle
 
 https://stackoverflow.com/questions/10925285/faster-implementation-of-verbal-arithmetic-in-prolog/11011680#11011680 <-- General implementation with faster performance
 
+https://www.metalevel.at/prolog/showcases/turing.pl <-- Turing states
+
 http://www.swi-prolog.org/man/clpfd.html <-- Library explained
 https://www.metalevel.at/prolog/clpfd
 
@@ -13,4 +15,4 @@ Integer arithmetic
 Pairs of terms
 Keysort
 
-->Termination
+->dcg
