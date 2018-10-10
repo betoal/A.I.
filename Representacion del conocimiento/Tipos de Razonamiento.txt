@@ -1,0 +1,8 @@
+Tipos de Razonamiento
+	Planeación: Se busca que suceda algo en específico. Encontrar una forma de lograr algo.
+	Diagnóstico: Identificar causas de síntomas indeseado
+	Diseño: 
+
+	Se distingue entre ellos dependiendo de los tipos de datos de entrada y salida.	
+	Método de razonamiento := Estrategia (pasos a seguir)
+		Difieren en los pasos a seguir y los tipos de conocimiento en que se basan

@@ -14,5 +14,6 @@ https://www.metalevel.at/prolog/optimization#tree <-- Optimization in Prolog (Gr
 Integer arithmetic
 Pairs of terms
 Keysort
+Dcg (concatenacion de listas y comprobacion)
 
 ->dcg

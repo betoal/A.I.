@@ -50,3 +50,19 @@ Casos:
 	Se requiere la cantidad necesaria para proporcionar suficiente cobertura del dominio de aplicación
 	Pueden ser organizados en una jerarquía clasificatoria (taxonomía). "Problema de los índices".
 	Se utiliza en dominios donde se tiene conocimiento episódico. Ejemplos específicos.
+
+Reglas:
+	Se usan para representar conocimiento procedural.
+	Enseñar a hacer algo, habilidades representadas.
+	Se pueden visualizar a través de tablas (precondiciones y postcondiciones).
+	Son para poder realizar inferencias:
+		Deducción: {encadenamiento hacia adelante}
+			Si se sabe perro(X) -> numPatas(X,4) ^ perro(firulais)
+				se puede deducir numPatas(firulais,4)
+		Inducción: {encadenamiento hacia atras}
+			Si se sabe clima(anoche, lluvioso) -> mojado(pavimento)
+				se observa que hoy en la mañana mojado(pavimento)
+				se puede inducir que clima(anoche, lluvioso) "posiblemente"
+					pero "posiblemente" accion(vecino, lavar, coche) -> mojado(pavimento)
+		Abducción: {Proponer nuevas reglas}
+			Se inventan nuevas reglas
