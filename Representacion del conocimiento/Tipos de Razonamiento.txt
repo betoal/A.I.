@@ -6,3 +6,15 @@ Tipos de Razonamiento
 	Se distingue entre ellos dependiendo de los tipos de datos de entrada y salida.	
 	Método de razonamiento := Estrategia (pasos a seguir)
 		Difieren en los pasos a seguir y los tipos de conocimiento en que se basan
+
+	Razonamiento basado en reglas: 
+		Se debe determinar el tipo de reglas que son aplicables i.e. comparar el estado actual con las precondiciones de las reglas (solo si se está haciendo encadenamiento hacia adelante) o las postcondiciones (solo si se está haciendo encadenamiento hacia atrás).
+		Si ninguna regla es aplicable => el problema está sobre-restringido i.e. no tiene solucion => se tiene que decidir como manejar la situacion
+		Si hay varias reglas aplicables => el problema está sub-restringido => hasy varias soluciones ("Resolución de Conflictos").
+		OPS83 - Lenguajes de Programacion para Sistemas basados en Reglas
+		ACT*
+
+	Sistemas Expertos := Sistemas basados en reglas diseñados para tener un desempeño comparable con un experto humano.
+		Sistemas basados en el conocimiento: Sistemas con desempeño experto pero no basados en reglas, sino en conocimiento capturado usando cualquiera de los esquemas de representación
+		Surge por un experto en anáñosos espectroscópico de moléculas desconocidas para predecir su estructura
+		

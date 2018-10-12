@@ -7,3 +7,5 @@ http://www.allisons.org/ll/Logic/Prolog/Examples/Diff/
 http://www.maheshsubramaniya.com/article/symbolic-computation-differential-calculus-using-prolog-part-1.html
 
 https://programmingpraxis.com/2017/03/24/symbolic-differentiation/
+
+https://github.com/dcasella/multivariate-polynomials/blob/master/Prolog/mvpoli.pl <-- Todo el codigo
