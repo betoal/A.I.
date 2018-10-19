@@ -18,3 +18,10 @@ Tipos de Razonamiento
 		Sistemas basados en el conocimiento: Sistemas con desempeño experto pero no basados en reglas, sino en conocimiento capturado usando cualquiera de los esquemas de representación
 		Surge por un experto en anáñosos espectroscópico de moléculas desconocidas para predecir su estructura
 		
+		Especificación de un nuevo problema ->
+			Recuperación de casos (Case retrieval) -> Se checan en la memoria de casos. {La descripcion del problema sirve para la búsqueda de casos} {-Memory probing (sondeo de memoria) -Ordenamiento de casos relevantes} ->
+			Adaptación de casos {Adaptar la solución obtenida al contexto del nuevo problema} ->
+			Validación de casos {Revisar que la solución sea adecuada} -> Aprendizaje de casos {Se registra la solución  en la memoria de casos} ->
+			Solución.
+
+	Router := Una forma de utilizar casos para soluciones. Se añaden pedazos en ciertas zonas para adaptar la solución.
