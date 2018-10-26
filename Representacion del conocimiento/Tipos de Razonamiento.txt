@@ -25,3 +25,4 @@ Tipos de Razonamiento
 			Solución.
 
 	Router := Una forma de utilizar casos para soluciones. Se añaden pedazos en ciertas zonas para adaptar la solución.
+	Modelo evolutivo (proceso en la adaptación de casos) := Combinación ->  Modificación -> Evaluación -> Diseño satisfactorio? Si, break; no, escoger otro caso.
