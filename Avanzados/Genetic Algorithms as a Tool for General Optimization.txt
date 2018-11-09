@@ -1,0 +1,44 @@
+Genetic Algorithms as a Tool for General Optimization
+
+Are meta-heuristic based on an analogu with evolutionaru procecess where:
+	Any optimizable problem is amenable to an encoding process.
+	A problem thusly encoded is more easily tackled than the non-encoded counterpart.
+	Si son buenos, sobreviven y tienen hijos, los cuales pueden mutar para buscar otras soluciones.
+
+	Se tienen que restringin las posibles soluciones a un n{umero finito de soluciones reales.
+	Siempre encuentran la mejor solucion (demostrado matemáticamente).
+	Los algoritmos compiten entre ellos por encontrar las soluciones, así los malos algoritmos desaparecen.
+
+	Se quiere que se encuentre la solución de una forma eficiente.
+	Cuando se tiene una población, se escogen aquellos que salieron más aptos. Se utiliza un operador que disloca los algoritmos para que se puedan explorar las distintas soluciones. Esto sucede cuando la solución no está dentro del espacio de búsqueda de dicho algoritmo.
+
+Se pueden quedar atorados porque se llega a un lugar muy bueno.
+	Cambia los algoritmos, para que el crossover sea un anillo (cola y cabeza unida) y se tiene una mutación uniforme, para que se tenga un elitismo.
+	Se mezclan los mejores con los peores para que se tengan mejores búsquedas. Así cada vez los mejores son mejores.
+
+
+Algunos parámetros que pueden variar:
+	Genotipo := La configuración de los genes.
+	Fenotipo := La representación de la configuración de los genes. (evaluación o interpretación)
+
+		Se pueden evaluar directamente los genes, así como la forma en la que se pueden expresar.
+	Representación del genotipo:
+		Estructura (lineal, matricial, jerárquico, etc)
+		Tipos de valores permitidos en los genes (binarios, enteros, cadenas de caracteres, etc).
+		Semántica de cada gen asociada a su posición (o no).
+		Genes divisibles (con detalles discretos internos {o no}).
+		tamaño variable permitido (o no).
+
+	Operadores genéticos disponibles:
+		Cruzamiento
+			¿De uno o múltiples puntos de cruce?
+			¿En cada padre partir en el mismo punto o no?
+			¿Permite punto de cruce interno a los genes o no?
+		Mutación:
+			Granularidad / Nivel de abstracción (cuánto se va a cambiar de los genotipos)
+			¿Usa conocimiento del dominio o no? (Si se llega a tener genotipos basura, se revisan o se limita desde el momento de la mutuación)
+		Otros: (pueden producir nuevas propuestas al cambiar los genotipos)
+
+	Población:
+		Semántica de cada individuo
+		¿Tamaño variable o no?
