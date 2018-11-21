@@ -88,3 +88,23 @@ Sistemas multi-agente:
 		Indirectas (observaciones de otros agentes + inferencias/decisiones posteriores).
 	Como resultado de los comportamientos individuales y las interacciones, emergen comportamientos a nivel macro (sociedad).
 	Sistema multi-agente => Sociedad simulada (un sistema de i.a. tradicional es un individuo simulado).
+	
+Procesamiento de Lenguaje Natural: lenguajes humanos
+	Varias modalidades:
+		Voz
+		Texto (digitalizado/ASCII)
+			Oraciones
+			Párrafos
+			Textos completos
+	Dos direcciones:
+		Entendimiento
+		Generación
+	Dos propiedades que hacen difícil el procesamiento de leguaje:
+		Ambigüedades
+		Información implícita
+	Se necesita conocimiento de:
+		Léxico (vocabulario)
+		Semántica (significado)
+		Sintaxis (gramática)
+		Puntuación, acentuación, pronunciación
+		Contexto
