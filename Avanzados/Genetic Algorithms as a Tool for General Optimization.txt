@@ -42,3 +42,49 @@ Algunos parámetros que pueden variar:
 	Población:
 		Semántica de cada individuo
 		¿Tamaño variable o no?
+		Reemplazo completo o parcial (elitismo) en cada generación.
+
+	Convergencia:
+		Basada en número de generaciones o valor de aptitud (máximo/mínimo) (en un individuo o promedio) o variedad genética o algún criterio híbrido.
+			Medido a través de la entropía [Medida de la incertidumbre existente ante un conjunto de mensajes, del cual va a recibirse uno solo] de la población
+		Multi-objetivo.
+	Función de aptitud: (evaluación, heurística, objetivo, etc.)
+
+	Conclusión:
+		Algoritmos que operan sobre los individuos agrupados en poblaciones para ajustar/evolucionar las características de esos individuos, inspirados en evolución natural.
+
+Algoritmos Evolutivos:
+	Genéticos:
+		Genotipos discretos (binarios) lineales
+		Enfatizan cruzamiento
+		Población de posibles soluciones
+
+	Estrategias evolutivas:
+		Genes reales (numéricos), genotipos lineales.
+		Enfatizan mutación.
+		Población de posibles soluciones.
+
+	Programación genética:
+		Genotipos jerárquicos.
+		Aplicación específica: Generación automatizada de código/programas.
+		Población de posibles soluciones.
+
+	Otros:
+		Inteligencia de enjambres (población de agentes que buscan soluciones).
+
+
+Sistemas multi-agente:
+	Varios agentes inteligentes simulados
+	Cada agente tiene su:
+		Personalidad (atributos)
+		Comportamiento (métodos) descriptivos.
+	Cada agente no es muy complejo.
+	Puede haber varios agentes del mismo tipo o de tipos diferentes.
+	El punto clave son las interacciones entre los agentes:
+		Cooperativas
+		Competitivas
+		De los 2 tipos/variables.
+		Directas (comunicación entre agentes).
+		Indirectas (observaciones de otros agentes + inferencias/decisiones posteriores).
+	Como resultado de los comportamientos individuales y las interacciones, emergen comportamientos a nivel macro (sociedad).
+	Sistema multi-agente => Sociedad simulada (un sistema de i.a. tradicional es un individuo simulado).
