@@ -108,3 +108,60 @@ Procesamiento de Lenguaje Natural: lenguajes humanos
 		Sintaxis (gramática)
 		Puntuación, acentuación, pronunciación
 		Contexto
+
+Aprendizaje automatizado (aprendizaje automático, autónomo, de máquina, Machine Learning)
+	Se pueden aprender muchos tipos de cosas:
+		Hechos aislados (capital de X país)
+		Relaciones entre hechos (jerarquías)
+		Generalizaciones (distintas formas de escribir "A")
+		Analogías (electrones y sistema solar)
+		Comportamiento (vehículos autónomos {como comportarse en X situación})
+	Hay distintos algoritmos que se han propuesto.
+	Se pueden aprender de distintas maneras
+		Aprendizaje supervisado (aviendo ejemplos, recibiendo explicaciones)
+		Aprendizaje no supervisado (búsquedas / descubrimiento de patrones de conjuntos de datos)
+	Dos dificultades que se deben de tomar en cuenta:
+		Problema de la utilidad (utility problem)
+			¿Conviene aprender algo nuevo o no?
+		Asignación de crédito / culpa (credit/blame assignment)
+			¿A que dato/aspecto le puedo atribuir el éxito/fracaso?
+
+Redes Neuronales <- Checar tema
+	Para cada entrada pueden existir varias salidas y éstas están interconectadas entre sí.
+
+	Si se quiere aprender generalizaciones:
+	Suponiendo los casos:
+		Temperatura ambiental (entrada)
+		Cantidad de viento (entrada)
+		Fin de semana (entrada)
+		Contingencia ambiental (salida)
+
+	Se generan varias hipótesis para que cada caso se pueda aprender mediante generalizaciones. Cada hipótesis es una generalización diferente.
+	Se quiere que se muestren solo algunas instancias y obtener una generalización que las cubra.
+		Una descripciónn= general del conjunto de instancias que se usó para entrenar.
+	Para esto se necesita haver una búsqueda en un espacio de hipótesis.
+	Se supondrá que cada hipótesis es la conjunción de restricciones asociadas con cada variable de entrada y que cada restricción es de la forma:
+		var = val (valor específico)
+		var = ? (don't care)
+		var = null (conjunto vacío)
+
+	En este caso en específico, se tiene un tamaño de hipótesis de 4³=64 hipótesis sintácticamente distintas.
+		Para cada una de las 3 variables, se tiene un valor de la restricción.
+		Sin embargo existen 3³+1 = 28 semánticamente distintas.
+
+	Un algoritmo sencillo para encontrar h:
+		Inicializar h para que sea la hipótesis más específica.
+		Para cada ejemplo de entrenamiento positivo x:
+			Si la restricción asociada con el atributo es satisfecha por x => no se hace nada.
+			En caso contraio => reemplazar en h la restricción asociada con esl atributo por la siguiente más general que sí sea satisfecha por x.
+			
+Reconocimiento de formas: (adolfo ...)
+	Fork, x, etc.
+
+Robótica:
+	Se utiliza:
+		Enfoque deliberativo (bueno para ambientes estáticos y conocidos con anticipación) que enfatiza el razonamiento y procesamiento detallado de la información y planeación cuidadosa de las acciones.
+			Requiere un mapa/modelo completo (lo más posible) del medio ambiente.
+		Enfoque reactivo (bueno para ambientes dinámicos y desconocidos) que enfatiza la conexión directa entre sensores y activadores, minimizando razonamiento (y el requerimiento del mapa).
+		Enfoque híbrido (Ron Arkin: AuRA) tiene 8 comportamientos preprogramados.
+			Se podrían combinar los comportamientos de evitar obstáculo y dirigete al objetivo.
